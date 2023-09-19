@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Information Form</h1>
+    <form action="" target="_blank" method="get">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="firstname">First Name: </label>
+            <input type="text" name="firstname"><br>
+            <br>
+            <label for="lastname">Last Name: </label>
+            <input type="text" name="lastname"><br>
+            <br>
+            <label for="birth">Date of Birth: </label>
+            <input type="date" name="birth"><br>
+            <br>
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="other">Other
+            <input type="radio" name="gender" value="unspecified">Unspecified<br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <label for="email">Email: </label>
+            <input type="text" name="email"><br>
+            <br>
+            <label for="phone">Phone Number: </label>
+            <input type="text" name="phone" placeholder="Enter 10-digit phone number"><br>
+            <br>
+            <label for="address">Address: </label>
+            <textarea name="address" cols="70" rows="5"></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Educational Information</legend>
+
+            <label for="major">Major: </label>
+            <input type="text" name="major"><br>
+            <br>
+            <label for="id">Student ID: </label>
+            <input type="text" name="id"><br>
+        </fieldset>
+
+        <label for="comments">Comments: </label><br>
+        <textarea name="comments" cols="70" rows="5"></textarea><br>
+        <br>
+        <label for="method">Submit Method: </label>
+        <input type="radio" name="method" value="get">GET
+        <input type="radio" name="method" value="post">POST<br>
+        <br>
+        <input type="submit" name="submit" value="Register" id="button">
+    </form>
+</body>
+</html>
